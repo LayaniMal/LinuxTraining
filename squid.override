@@ -1,0 +1,2 @@
+start on (net-device-up IFACE!=lo and local-filesystems and runlevel [135])
+          stop on runlevel [016]	
